@@ -5,6 +5,6 @@ app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}`);
 })
 
-// setTimeout(() => {
-//   process.exit(0);
-// }, 60 * 60 * 1000);
+setTimeout(() => {
+  process.exit(0);
+}, 60 * 60 * 1000);
